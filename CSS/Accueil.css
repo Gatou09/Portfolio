@@ -1,0 +1,168 @@
+body {
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    padding: 5.5rem 0;
+  }
+  
+  .section-title {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+
+  .section-headerC{
+    text-align: center;
+  }
+
+  .intro {
+    background: rgba(218, 217, 217, 0.65);
+  }
+
+  .contact {
+    margin: 0;
+    background: rgba(218, 217, 217, 0.65);
+  }
+
+  .list_intro{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .topPF {
+    /* background: rgba(81, 81, 81, 0.650); */
+    background: rgb(0, 0, 0); 
+    color: #FFF;
+    padding: 0rem;
+  }
+  
+  .topPF .title {
+    color: inherit;
+    font-size: 2rem;
+    margin: 1.6rem 0 0 0;
+    font-weight: 700;
+  }
+  
+  .topPF__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .topPF__item span {
+    text-transform: uppercase;
+    margin: 1.6rem 0 0 0;
+  }
+
+
+
+#titre_page {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.cadre {
+    background-image: url(Image/Background_cadre.jpg);
+    margin: 2%;
+    border: 3px solid gray;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+
+.image_cadre {
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadre:hover{
+    border: 3px solid #f00;
+    animation: changeColor 2s ease-in-out infinite alternate;
+}
+
+@keyframes changeColor {
+    0% {
+      border-color: #f00;
+    }
+    25% {
+      border-color: #0f0;
+    }
+    50% {
+      border-color: #00f;
+    }
+    75% {
+      border-color: #ff0;
+    }
+    100% {
+      border-color: #f00;
+    }
+  }
+
+.lien {
+    text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input, textarea {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  min-width: 250px;
+}
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 3px #007bff;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1f1f1fdc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000000;
+}
+
+footer {
+    background: #000;
+    color: #EEE;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer .grid {
+    align-items: center;
+  }
