@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+.autrepage {
+  background: rgba(218, 217, 217, 0.65);
+}
+
 section {
     padding: 5.5rem 0;
   }
@@ -24,7 +28,6 @@ section {
 
   .contact {
     margin: 0;
-    background: rgba(218, 217, 217, 0.65);
   }
 
   .list_intro{
@@ -165,4 +168,33 @@ footer {
   
   footer .grid {
     align-items: center;
+  }
+  
+  .grid__item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .skills h4,
+  .skills p {
+    margin: 0 0 0.3rem 0;
+  }
+  
+  .skills li {
+    background-color: #F5F5F5;
+    border-left: 3px solid rgb(91, 107, 120);
+    padding: .9rem 2rem;
+  }
+  
+  .skills .progressbar {
+    background: #F5F5F5;
+    color: #FFF;
+    margin-bottom: 1rem;
+  }
+  
+  .skills .bar {
+    background: #5b6c78;
+    padding: 1rem;
   }
