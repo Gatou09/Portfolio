@@ -36,8 +36,7 @@ section {
   }
   
   .topPF {
-    /* background: rgba(81, 81, 81, 0.650); */
-    background: rgb(0, 0, 0); 
+    background-color: #333; 
     color: #FFF;
     padding: 0rem;
   }
@@ -156,7 +155,7 @@ button:hover {
 }
 
 footer {
-    background: #000;
+    background-color: #333;
     color: #EEE;
     text-align: center;
     font-size: 1rem;

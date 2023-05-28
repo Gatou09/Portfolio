@@ -1,3 +1,10 @@
+body {
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 nav {
     background-color: #333;
     color: #fff;
@@ -37,4 +44,97 @@ nav {
   .list_intro{
     padding: 0.5rem;
     font-size: 1.1rem;
+  }
+
+  
+  .modal img {
+    margin-bottom: 2rem;
+  }
+  
+  .modal__title {
+    margin: 0 0 2rem;
+  }
+  
+  .modal__close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: none;
+    border: 1px solid #eee;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 3.1rem;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .modal .grid__item {
+    max-width: 100%;
+    margin-bottom: 0;
+    opacity: 1;
+    transition: all 1s ease;
+  }
+
+  .modal {
+    background: rgba(218, 217, 217, 0.65);
+    }
+
+  .container {
+    padding: 1rem 2rem;  
+  }
+
+  .container2 {
+    background: rgb(255, 255, 255);
+    padding: 1rem 2rem;  
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid__item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2,
+  .h2 {
+    font-size: 2.0rem;
+  }
+  
+  h3,
+  .h3 {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    background-color: #333;
+    color: #EEE;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
   }
